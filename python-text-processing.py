@@ -13,6 +13,14 @@ line = 'lala@lalala'
 line = re.sub('@', '', line)
 
 
+#=================#
+# String trimming #
+#=================#
+
+# get first 2 signs of the string    
+"lalala"[:2]
+
+
 #===========================================#
 # Cut string in place of pattern occurrence #
 #===========================================#
@@ -36,3 +44,9 @@ line.partition('@')[0]
 'one' in 'one two three' in 'one two three four'
 
 
+#=======================#
+# string transformation #
+#=======================#
+
+# transform all letters to lowercase
+'Lala@'.lower()
