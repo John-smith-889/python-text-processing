@@ -7,11 +7,11 @@
 
 import re
 
-line = 'lala@lalala'
+line = 'lala@lalala@lala'
 
-# delete given part from the string
+# delete every occurence of given part from the string
 line = re.sub('@', '', line)
-
+line
 
 #=================#
 # String trimming #
@@ -50,3 +50,4 @@ line.partition('@')[0]
 
 # transform all letters to lowercase
 'Lala@'.lower()
+
