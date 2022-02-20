@@ -51,3 +51,20 @@ line.partition('@')[0]
 # transform all letters to lowercase
 'Lala@'.lower()
 
+
+#===================#
+# string formatting #
+#===================#
+
+print("string {}".format("formatting"))
+
+#=====================#
+# f-string formatting #
+#=====================#
+
+noun = "string" 
+activity = "formatting"
+print(f"f {noun} {activity}")  
+
+# evaluation inside brackets 
+print(f"set{1+1} and set{2+2}")
